@@ -25,7 +25,7 @@ public readonly struct ColorInterpolationHandler(int literalLength, int formatte
 		ConsoleColor.Magenta => "\u001b[95m",
 		ConsoleColor.Yellow => "\u001b[93m",
 		ConsoleColor.White => "\u001b[97m",
-		_ => "\u001b[97m", // Default to white
+		_ => "\u001b[97m"
 	};
 
 	public void AppendLiteral(string literal)
