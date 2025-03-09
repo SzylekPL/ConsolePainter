@@ -4,6 +4,6 @@ internal class Program
 {
 	private static void Main(string[] args)
 	{
-		Console.WriteLine("Hello, World!");
+		ColoredConsole.WriteLine($"{ConsoleColor.Red} Hello, {ConsoleColor.White} World!");
 	}
 }
